@@ -12,4 +12,4 @@ dependencies = [
 [[package]]
 name = "main-for-processbot-staging"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/main-for-processbot-staging?branch=master#0b315373c05c3b0ed447f2dff665400882f52265"
+source = "git+https://github.com/paritytech/main-for-processbot-staging?branch=master#17de4f6ce11c7bdc4361d3e0ae3f3d7d4a3d7869"
