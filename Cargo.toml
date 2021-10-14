@@ -5,4 +5,4 @@ authors = ["paritytech <info@parity.io>"]
 edition = "2018"
 
 [dependencies]
-main-for-processbot-staging = { git = "ssh://git@github.com/paritytech/main-for-processbot-staging.git", branch = "master" }
+main-for-processbot-staging = { git = "https://github.com/paritytech/main-for-processbot-staging", branch = "master" }
