@@ -8,5 +8,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Simulate pr-custom-review
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          status: success
+          context: Check reviews
       - name: Sleep for debugging purposes
         run: sleep 20
